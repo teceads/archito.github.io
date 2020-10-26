@@ -1,0 +1,4 @@
+[1022/141446.456:INFO:CONSOLE(1)] "Hiding message due to error: CActionControl::Get failed with error: -25920 msg: error: -25920 message: Could not complete your request because a command was not available.", source: file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%202021%20(Prerelease)/Required/www-butler/build/spaces.js (1)
+[1022/185310.959:ERROR:browser_gpu_channel_host_factory.cc(139)] Failed to launch GPU process.
+[1023/143040.473:INFO:CONSOLE(1)] "Hiding message due to error: Could not find the screen of the target", source: file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%202021%20(Prerelease)/Required/www-butler/build/spaces.js (1)
+[1023/215853.821:INFO:CONSOLE(1)] "Hiding message due to error: Could not find the screen of the target", source: file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%202021%20(Prerelease)/Required/www-butler/build/spaces.js (1)

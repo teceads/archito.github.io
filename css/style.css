@@ -1,11 +1,11 @@
 /* ------------------------------------------------------------------------------
 
-  Template Name: Go.arch 
+  Template Name: Go.arch
   Description: Go.arch  - Architecture HTML Template
   Author: Murren
   Author URI: http://themeforest.net/user/murren20
   Version: 1.0
-  
+
   1.  Global
 
       1.1 General
@@ -16,7 +16,7 @@
       1.6 Loader
       1.7 Content styles
 
-  2.  Header 
+  2.  Header
 
       2.1 Brand
       2.2 Vertical Panel
@@ -24,7 +24,7 @@
       2.4 Navbar Desctop Affix
       2.5 Navbar Mobile
       2.6 Navbar Mobile Affix
-      
+
 
   3.  Main
 
@@ -49,17 +49,17 @@
       8.2 Widgets
       8.3 Widget Recent Post
 
-  9.  Contacts  
+  9.  Contacts
   10. Footer
   11. Responsive styles
 
       11.1 Min width: 768px
       11.2 Min width 992px
-      11.3 Min width 1200px 
+      11.3 Min width 1200px
       11.4 Max height 480px
 
-    
-    
+
+
 /*-------------------------------------------------------------------------------
   1. Global
 -------------------------------------------------------------------------------*/
@@ -143,7 +143,7 @@ body{
 }
 
 h1,
-.h1{ 
+.h1{
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
   font-size: 8vmin;
@@ -154,7 +154,7 @@ h1,
 }
 
 h2,
-.h2{ 
+.h2{
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
   font-size: 2.1875em;
@@ -420,7 +420,7 @@ label.error{
   position: relative;
   -webkit-transform: scale(1.1);
       -ms-transform: scale(1.1);
-          transform: scale(1.1); 
+          transform: scale(1.1);
 }
 
 .sk-folding-cube .sk-cube:before {
@@ -460,7 +460,7 @@ label.error{
 
 .sk-folding-cube .sk-cube3:before {
   -webkit-animation-delay: 0.6s;
-          animation-delay: 0.6s; 
+          animation-delay: 0.6s;
 }
 
 .sk-folding-cube .sk-cube4:before {
@@ -472,31 +472,31 @@ label.error{
   0%, 10% {
     -webkit-transform: perspective(140px) rotateX(-180deg);
             transform: perspective(140px) rotateX(-180deg);
-    opacity: 0; 
+    opacity: 0;
   } 25%, 75% {
     -webkit-transform: perspective(140px) rotateX(0deg);
             transform: perspective(140px) rotateX(0deg);
-    opacity: 1; 
+    opacity: 1;
   } 90%, 100% {
     -webkit-transform: perspective(140px) rotateY(180deg);
             transform: perspective(140px) rotateY(180deg);
-    opacity: 0; 
-  } 
+    opacity: 0;
+  }
 }
 
 @keyframes sk-foldCubeAngle {
   0%, 10% {
     -webkit-transform: perspective(140px) rotateX(-180deg);
             transform: perspective(140px) rotateX(-180deg);
-    opacity: 0; 
+    opacity: 0;
   } 25%, 75% {
     -webkit-transform: perspective(140px) rotateX(0deg);
             transform: perspective(140px) rotateX(0deg);
-    opacity: 1; 
+    opacity: 1;
   } 90%, 100% {
     -webkit-transform: perspective(140px) rotateY(180deg);
             transform: perspective(140px) rotateY(180deg);
-    opacity: 0; 
+    opacity: 0;
   }
 }
 
@@ -600,7 +600,7 @@ label.error{
 
 .header-inner .vertical-panel-content{
   bottom:auto;
-  top:12.2vmin;
+  top:29.2vmin;
 }
 
 
@@ -616,8 +616,8 @@ label.error{
   top:0;
   width: 39.47vmin;
   height: 40.7vmin;
-  padding: 4.8vmin 2em 4.8vmin;
-  background-color: #2b2b2b;
+  /* padding: 4.8vmin 2em 4.8vmin; */
+  /* background-color: #2b2b2b; */
   text-align: center;
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
@@ -724,11 +724,12 @@ label.error{
 .vertical-panel{
   z-index: 3;
   height: 10000px;
-  background-color: #2b2b2b;
+  /* background-color: #2b2b2b;  */
 }
 
 .vertical-panel-content{
   z-index: 4;
+  background-color: #2b2b2b;
 }
 
 .vertical-panel-info{
@@ -964,7 +965,7 @@ label.error{
 .navbar-toggle .icon-bar{
   background-color:#fff;
   height: 2px;
-  width: 30px; 
+  width: 30px;
 }
 
 .navbar-toggle .icon-bar + .icon-bar{
@@ -1252,11 +1253,11 @@ label.error{
 
 .col-about-title{
   margin-top: 0;
-  margin-bottom:1.1em; 
+  margin-bottom:1.1em;
 }
 
 .col-about-info p:last-child{
-  margin-bottom: 0; 
+  margin-bottom: 0;
 }
 
 .col-about-img{
@@ -1284,7 +1285,7 @@ label.error{
 }
 
 .service-item{
-  margin-bottom:2em; 
+  margin-bottom:2em;
 }
 
 .service-item:last-child{
@@ -1405,7 +1406,7 @@ label.error{
 
 .bg-projects{
   position: relative;
-  background:url(../img/bg/projects.jpg) 50% 0 no-repeat;
+  background:url(../img/bg-1.png) 50% 0 no-repeat;
   background-size: cover;
 }
 
@@ -1443,7 +1444,7 @@ label.error{
 .project.project-light figure:after{
   opacity: 0.4;
 }
-    
+
 .project figcaption{
   position: absolute;
   z-index: 1;
@@ -1587,7 +1588,7 @@ label.error{
   padding-left: 35px;
   background:url(../img/img-icon/prev.png) left 50% no-repeat;
   background-size: 1.3em 1em;
-  
+
 }
 
 .owl-next{
@@ -1612,7 +1613,7 @@ label.error{
   overflow: visible;
 }
 
-.mfp-image-holder .mfp-close, 
+.mfp-image-holder .mfp-close,
 .mfp-iframe-holder .mfp-close{
   padding: 0;
   margin-top: -10px;
@@ -1714,11 +1715,11 @@ img.mfp-img{
       -ms-transform: rotateX(-60deg);
        -o-transform: rotateX(-60deg);
           transform: rotateX(-60deg);
-  
+
 }
 
-.mfp-zoom-out-cur, 
-.mfp-zoom-out-cur 
+.mfp-zoom-out-cur,
+.mfp-zoom-out-cur
 .mfp-image-holder .mfp-close{
   cursor:url(../img/zoom-out.cur), zoom-out;
 }
@@ -2144,7 +2145,7 @@ img.mfp-img{
 
 
 .bg-contacts{
-  background: url(../img/bg/contacts.jpg) 50% 0 no-repeat;
+  background: url(../img/bg-2.png) 50% 0 no-repeat;
   background-size: cover;
 }
 
@@ -2518,7 +2519,7 @@ img.mfp-img{
   /* Blog Details */
 
 
-  
+
   .col-primary{
     padding-right: 2.2em;
   }
@@ -2604,5 +2605,3 @@ img.mfp-img{
     bottom: auto;
   }
 }
-
-

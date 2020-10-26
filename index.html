@@ -3,7 +3,7 @@
 <head>
 <meta  charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Archito </title> 
+<title>Archito </title>
 
 <!-- Favicons -->
 <link rel="shortcut icon" href="favicon.png">
@@ -15,9 +15,14 @@
 <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,700" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet" media="screen">
+<!-- <style media="screen">
+html {
+scroll-behavior: smooth;
+}
+</style> -->
 </head>
 <body>
-  
+
     <!-- Loader -->
 
     <div class="loader">
@@ -35,7 +40,7 @@
           </div>
         </div>
       </div>
-      <div class="loader-brand"> 
+      <div class="loader-brand">
         <div class="sk-folding-cube">
           <div class="sk-cube1 sk-cube"></div>
           <div class="sk-cube2 sk-cube"></div>
@@ -49,29 +54,30 @@
 
     <header id="top" class="header-home">
       <div class="brand-panel">
-        <a href="#top" class="brand js-target-scroll">
-          <span class="text-primary">.</span>archito
+        <a href="index.html" class="brand js-target-scroll">
+          <!-- <span class="text-primary">.</span>archito -->
+            <img src="img/LOGO-ARCHITO.png" width="250">
         </a>
-        <div class="brand-name">.archito</div>
+        <!-- <div class="brand-name">.archito</div>
         <div class="slide-number">
           <span class="current-number text-primary">0<span class="count">1</span></span>
           <sup><span class="delimiter">/</span> 0<span class="total-count"></span></sup>
-        </div>
+        </div> -->
       </div>
-      <div class="header-phone"> +91 94398 71345</div>
+      <div class="header-phone">+91 9337922103</div>
       <div class="vertical-panel"></div>
       <div class="vertical-panel-content">
         <div class="vertical-panel-info">
-            <div class="vertical-panel-title">Archito Design Studio</div>
+            <div class="vertical-panel-title">Architecture buro</div>
             <div class="line"></div>
          </div>
         <ul class="social-list">
-          <li><a href="" class="fa fa-instagram"></a></li>
-          <li><a href="" class="fa fa-twitter"></a></li>
-          <li><a href="" class="fa fa-behance"></a></li>
-          <li><a href="" class="fa fa-facebook"></a></li>
-         </ul>  
-      </div> 
+          <li><a target="_blank" href="https://www.instagram.com/archito_design_studio/?igshid=i7raxda96dsh&hl=en" class="fa fa-instagram"></a></li>
+          <li><a class="fa fa-twitter"></a></li>
+          <!-- <li><a href="" class="fa fa-behance"></a></li> -->
+          <li><a target="_blank" href="https://www.facebook.com/rushikesh.archito/" class="fa fa-facebook"></a></li>
+         </ul>
+      </div>
 
       <!-- Navigation Desctop -->
 
@@ -85,14 +91,31 @@
               <a href="index.html">Home</a>
             </li>
             <li>
-              <a href="">About us</a>
+              <a href="about.html">About us</a>
             </li>
             <li>
-              <a href="">Projects</a>
-              
-            </li>  
+              <a style="cursor:pointer;">Projects</a>
+              <ul>
+                <li>
+                  <a style="cursor:pointer;">Residential</a>
+                <ul>
+                  <li><a href="resint.html">Interiors</a></li>
+                  <li><a href="resext.html">Exteriors</a></li>
+                </ul>
+              </li>
+                <li><a style="cursor:pointer;">Commercial</a>
+                  <ul>
+                    <li><a href="comint.html">Interiors</a></li>
+                    <li><a href="comext.html">Exteriors</a></li>
+                  </ul>
+                </li>
+                <li><a href="hospitality.html">Hospitality</a></li>
+                <li><a href="landscape.html">Landscape</a></li>
+                <li><a href="govt.html">Goverment</a></li>
+              </ul>
+            </li>
             <li>
-              <a href="">Contacts</a>
+              <a href="contacts.html">Contacts</a>
             </li>
           </ul>
         </div>
@@ -114,33 +137,46 @@
           <span class="icon-bar"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbar-mobile"> 
+        <div class="collapse navbar-collapse" id="navbar-mobile">
           <ul class="navbar-nav-mobile">
             <li class="active">
-              <a href="#">Home <i class="fa fa-angle-down"></i></a>
-              
+              <a href="index.html">Home</a>
+              <!-- <ul>
+                <li><a href="../light/index.html">Home - Light</a></li>
+                <li class="active">
+                  <a href="index.html">— Home - Dark</a>
+                </li>
+              </ul> -->
             </li>
             <li>
-              <a href="">About us</a>
+              <a href="about.html">About us</a>
             </li>
             <li>
               <a href="#">Projects <i class="fa fa-angle-down"></i></a>
-              
-            </li>  
+              <ul>
+                <li><a href="resint.html">Residential Interiors</a></li>
+                <li><a href="resext.html">Residential Exteriors</a></li>
+                <li><a href="comint.html">Commercial Interiors</a></li>
+                <li><a href="comext.html">Commercial Exteriors</a></li>
+                <li><a href="hospitality.html">Hospitality</a></li>
+                <li><a href="landscape.html">Landscape</a></li>
+                <li><a href="govt.html">Goverment</a></li>
+            </ul>
+            </li>
             <li>
-              <a href="">Contacts</a>
+              <a href="contacts.html">Contacts</a>
             </li>
           </ul>
         </div>
-      </nav> 
+      </nav>
     </header>
 
   <!-- Layout -->
 
   <div class="layout">
-    
+
     <!-- Home -->
-    
+
     <main class="main">
 
       <div class="arrow-left"></div>
@@ -162,8 +198,8 @@
 
               <!-- Layer 1 -->
 
-              <div class="slide-title tp-caption tp-resizeme" 
-                data-x="['right','right','right','right']" data-hoffset="['-18','-18','-18','-18']" 
+              <div class="slide-title tp-caption tp-resizeme"
+                data-x="['right','right','right','right']" data-hoffset="['-18','-18','-18','-18']"
                 data-y="['middle','middle','middle','middle']" data-voffset="['-35','-35', '-25']"
                 data-fontsize="['50','45', '35']"
                 data-lineheight="['80','75', '65']"
@@ -171,39 +207,39 @@
                 data-height="none"
                 data-whitespace="normal"
                 data-transform_idle="o:1;"
-                data-transform_in="x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power2.easeInOut;" 
-                data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
-                data-mask_in="x:50px;y:0px;s:inherit;e:inherit;" 
-                data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
-                data-start="500" 
-                data-splitin="chars" 
-                data-splitout="none" 
-                data-responsive_offset="on" 
-                data-elementdelay="0.05">Concert hall in Berhampur
+                data-transform_in="x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power2.easeInOut;"
+                data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                data-mask_in="x:50px;y:0px;s:inherit;e:inherit;"
+                data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
+                data-start="500"
+                data-splitin="chars"
+                data-splitout="none"
+                data-responsive_offset="on"
+                data-elementdelay="0.05">Concert hall in new york
               </div>
 
               <!-- Layer 2 -->
 
               <div class="slide-subtitle tp-caption tp-resizeme"
-                data-x="['right','right','right','right']" data-hoffset="['0']" 
+                data-x="['right','right','right','right']" data-hoffset="['0']"
                 data-y="['middle','middle','middle','middle']" data-voffset="['75','105']"
-                data-fontsize="['18']" 
+                data-fontsize="['18']"
                 data-whitespace="nowrap"
                 data-transform_idle="o:1;"
-                data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1200;e:Power1.easeInOut;" 
-                data-transform_out="opacity:0;s:1000;s:1000;" 
-                data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" 
-                data-start="1500" 
-                data-splitin="none" 
-                data-splitout="none">Concert Hall is the architecture of a new generation, a building<br> 
-                that exists not only in the dimension of space,<br> 
-                but also in the dimension of time and communication. 
+                data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1200;e:Power1.easeInOut;"
+                data-transform_out="opacity:0;s:1000;s:1000;"
+                data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
+                data-start="1500"
+                data-splitin="none"
+                data-splitout="none">Concert Hall is the architecture of a new generation, a building<br>
+                that exists not only in the dimension of space,<br>
+                but also in the dimension of time and communication.
               </div>
 
               <!-- Layer 3 -->
 
               <div class="tp-caption"
-                data-x="['right','right','right','right']" data-hoffset="['0','0','0','0']" 
+                data-x="['right','right','right','right']" data-hoffset="['0','0','0','0']"
                 data-y="['middle','middle','middle','middle']" data-voffset="['195','215']"
                 data-width="none"
                 data-height="none"
@@ -211,12 +247,12 @@
                 data-transform_idle="o:1;"
                 data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power1.easeInOut;"
                 data-style_hover="c:rgba(255, 255, 255, 1.00);bc:rgba(255, 255, 255, 1.00);"
-                data-transform_in="y:50px;opacity:0;s:1500;e:Power4.easeInOut;" 
-                data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
-                data-mask_out="x:inherit;y:inherit;" 
-                data-start="1500" 
-                data-splitin="none" 
-                data-splitout="none" 
+                data-transform_in="y:50px;opacity:0;s:1500;e:Power4.easeInOut;"
+                data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                data-mask_out="x:inherit;y:inherit;"
+                data-start="1500"
+                data-splitin="none"
+                data-splitout="none"
                 data-responsive_offset="on"><a href="#about" class="btn js-target-scroll">Look more <i class="icon-next"></i></a>
               </div>
             </li>
@@ -231,8 +267,8 @@
 
               <!-- Layer 1 -->
 
-              <div class="slide-title tp-caption tp-resizeme" 
-                data-x="['right','right','right','right']" data-hoffset="['-18','-18','-18','-18']" 
+              <div class="slide-title tp-caption tp-resizeme"
+                data-x="['right','right','right','right']" data-hoffset="['-18','-18','-18','-18']"
                 data-y="['middle','middle','middle','middle']" data-voffset="['-35','-35', '-55']"
                 data-fontsize="['50','45', '35']"
                 data-lineheight="['80','75','65']"
@@ -240,13 +276,13 @@
                 data-height="none"
                 data-whitespace="normal"
                 data-transform_idle="o:1;"
-                data-transform_in="x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power2.easeInOut;" 
-                data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
-                data-mask_in="x:50px;y:0px;s:inherit;e:inherit;" 
-                data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
-                data-start="500" 
-                data-splitin="chars" 
-                data-splitout="none" 
+                data-transform_in="x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power2.easeInOut;"
+                data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                data-mask_in="x:50px;y:0px;s:inherit;e:inherit;"
+                data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
+                data-start="500"
+                data-splitin="chars"
+                data-splitout="none"
                 data-responsive_offset="on"
                 data-elementdelay="0.05">Exhibition center in boston
               </div>
@@ -255,25 +291,25 @@
               <!-- Layer 2 -->
 
               <div class="slide-subtitle tp-caption tp-resizeme"
-                data-x="['right','right','right','right']" data-hoffset="['0']" 
+                data-x="['right','right','right','right']" data-hoffset="['0']"
                 data-y="['middle','middle','middle','middle']" data-voffset="['75','105']"
-                data-fontsize="['18']" 
+                data-fontsize="['18']"
                 data-whitespace="nowrap"
                 data-transform_idle="o:1;"
-                data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1200;e:Power1.easeInOut;" 
-                data-transform_out="opacity:0;s:1000;s:1000;" 
-                data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" 
-                data-start="1500" 
-                data-splitin="none" 
+                data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1200;e:Power1.easeInOut;"
+                data-transform_out="opacity:0;s:1000;s:1000;"
+                data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
+                data-start="1500"
+                data-splitin="none"
                 data-splitout="none">
-                Modern Hotel is the architecture of a new generation, a building<br> that exists not only in the dimension of space,<br> 
-                but also in the dimension of time and communication. 
+                Modern Hotel is the architecture of a new generation, a building<br> that exists not only in the dimension of space,<br>
+                but also in the dimension of time and communication.
               </div>
 
               <!-- Layer 3 -->
 
               <div class="tp-caption tp-resizeme"
-                data-x="['right','right','right','right']" data-hoffset="['0']" 
+                data-x="['right','right','right','right']" data-hoffset="['0']"
                 data-y="['middle','middle','middle','middle']" data-voffset="['195','210']"
                 data-width="none"
                 data-height="none"
@@ -281,12 +317,12 @@
                 data-transform_idle="o:1;"
                 data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power1.easeInOut;"
                 data-style_hover="c:rgba(255, 255, 255, 1.00);bc:rgba(255, 255, 255, 1.00);"
-                data-transform_in="y:50px;opacity:0;s:1500;e:Power4.easeInOut;" 
-                data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
-                 data-mask_out="x:inherit;y:inherit;" 
-                data-start="1500" 
-                data-splitin="none" 
-                data-splitout="none" 
+                data-transform_in="y:50px;opacity:0;s:1500;e:Power4.easeInOut;"
+                data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                 data-mask_out="x:inherit;y:inherit;"
+                data-start="1500"
+                data-splitin="none"
+                data-splitout="none"
                 data-responsive_offset="on"
                 style="z-index: 8;"><a href="#about" class="btn js-target-scroll">Look more <i class="icon-next"></i></a>
               </div>
@@ -302,8 +338,8 @@
 
               <!-- Layer 1 -->
 
-              <div class="slide-title tp-caption tp-resizeme" 
-                data-x="['right','right','right','right']" data-hoffset="['-18','-18','-18','-18']" 
+              <div class="slide-title tp-caption tp-resizeme"
+                data-x="['right','right','right','right']" data-hoffset="['-18','-18','-18','-18']"
                 data-y="['middle','middle','middle','middle']" data-voffset="['-35','-35', '-25']"
                 data-fontsize="['50','45', '35']"
                 data-lineheight="['80','75', '65']"
@@ -311,40 +347,40 @@
                 data-height="none"
                 data-whitespace="normal"
                 data-transform_idle="o:1;"
-                data-transform_in="x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power2.easeInOut;" 
-                data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
-                data-mask_in="x:50px;y:0px;s:inherit;e:inherit;" 
-                data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
-                data-start="500" 
-                data-splitin="chars" 
-                data-splitout="none" 
+                data-transform_in="x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power2.easeInOut;"
+                data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                data-mask_in="x:50px;y:0px;s:inherit;e:inherit;"
+                data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
+                data-start="500"
+                data-splitin="chars"
+                data-splitout="none"
                 data-responsive_offset="on"
-                data-elementdelay="0.05">Modern hotel in Bhubaneswar
+                data-elementdelay="0.05">Modern hotel in london
               </div>
 
 
               <!-- Layer 2 -->
 
               <div class="slide-subtitle tp-caption tp-resizeme"
-                data-x="['right','right','right','right']" data-hoffset="['0']" 
+                data-x="['right','right','right','right']" data-hoffset="['0']"
                 data-y="['middle','middle','middle','middle']" data-voffset="['75','105']"
-                data-fontsize="['18']" 
+                data-fontsize="['18']"
                 data-whitespace="nowrap"
                 data-transform_idle="o:1;"
-                data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1200;e:Power1.easeInOut;" 
-                data-transform_out="opacity:0;s:1000;s:1000;" 
-                data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" 
-                data-start="1500" 
-                data-splitin="none" 
+                data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1200;e:Power1.easeInOut;"
+                data-transform_out="opacity:0;s:1000;s:1000;"
+                data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
+                data-start="1500"
+                data-splitin="none"
                 data-splitout="none">Exhibition Center is the architecture of a new generation,<br>
-                a building that exists not only in the dimension of space,<br> 
-                but also in the dimension of time and communication.  
+                a building that exists not only in the dimension of space,<br>
+                but also in the dimension of time and communication.
               </div>
 
               <!-- Layer 3 -->
 
               <div class="tp-caption tp-resizeme"
-                data-x="['right','right','right','right']" data-hoffset="['0','0','0','0']" 
+                data-x="['right','right','right','right']" data-hoffset="['0','0','0','0']"
                 data-y="['middle','middle','middle','middle']" data-voffset="['195','215']"
                 data-width="none"
                 data-height="none"
@@ -352,13 +388,13 @@
                 data-transform_idle="o:1;"
                 data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power1.easeInOut;"
                 data-style_hover="c:rgba(255, 255, 255, 1.00);bc:rgba(255, 255, 255, 1.00);"
-                data-transform_in="y:50px;opacity:0;s:1500;e:Power4.easeInOut;" 
-                data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
-                data-mask_out="x:inherit;y:inherit;" 
-                data-start="1500" 
-                data-splitin="none" 
-                data-splitout="none" 
-                data-responsive_offset="on" 
+                data-transform_in="y:50px;opacity:0;s:1500;e:Power4.easeInOut;"
+                data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                data-mask_out="x:inherit;y:inherit;"
+                data-start="1500"
+                data-splitin="none"
+                data-splitout="none"
+                data-responsive_offset="on"
                 style="z-index: 8;"><a href="#about" class="btn js-target-scroll">Look more <i class="icon-next"></i></a>
               </div>
             </li>
@@ -374,8 +410,8 @@
 
               <!-- Layer 1 -->
 
-              <div class="slide-title tp-caption tp-resizeme" 
-                data-x="['right','right','right','right']" data-hoffset="['-18','-18','-18','-18']" 
+              <div class="slide-title tp-caption tp-resizeme"
+                data-x="['right','right','right','right']" data-hoffset="['-18','-18','-18','-18']"
                 data-y="['middle','middle','middle','middle']" data-voffset="['-35','-35', '-25']"
                 data-fontsize="['50','45', '35']"
                 data-lineheight="['80','75', '65']"
@@ -383,40 +419,40 @@
                 data-height="none"
                 data-whitespace="normal"
                 data-transform_idle="o:1;"
-                data-transform_in="x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power2.easeInOut;" 
-                data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
-                data-mask_in="x:50px;y:0px;s:inherit;e:inherit;" 
-                data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
-                data-start="500" 
-                data-splitin="chars" 
-                data-splitout="none" 
+                data-transform_in="x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power2.easeInOut;"
+                data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                data-mask_in="x:50px;y:0px;s:inherit;e:inherit;"
+                data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
+                data-start="500"
+                data-splitin="chars"
+                data-splitout="none"
                 data-responsive_offset="on"
-                data-elementdelay="0.05">Modern hotel in Bhubaneswar
+                data-elementdelay="0.05">Modern hotel in london
               </div>
 
 
               <!-- Layer 2 -->
 
               <div class="slide-subtitle tp-caption tp-resizeme"
-                data-x="['right','right','right','right']" data-hoffset="['0']" 
+                data-x="['right','right','right','right']" data-hoffset="['0']"
                 data-y="['middle','middle','middle','middle']" data-voffset="['75','105']"
-                data-fontsize="['18']" 
+                data-fontsize="['18']"
                 data-whitespace="nowrap"
                 data-transform_idle="o:1;"
-                data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1200;e:Power1.easeInOut;" 
-                data-transform_out="opacity:0;s:1000;s:1000;" 
-                data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" 
-                data-start="1500" 
-                data-splitin="none" 
+                data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1200;e:Power1.easeInOut;"
+                data-transform_out="opacity:0;s:1000;s:1000;"
+                data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
+                data-start="1500"
+                data-splitin="none"
                 data-splitout="none">Exhibition Center is the architecture of a new generation,<br>
-                a building that exists not only in the dimension of space,<br> 
-                but also in the dimension of time and communication.  
+                a building that exists not only in the dimension of space,<br>
+                but also in the dimension of time and communication.
               </div>
 
               <!-- Layer 3 -->
 
               <div class="tp-caption tp-resizeme"
-                data-x="['right','right','right','right']" data-hoffset="['0','0','0','0']" 
+                data-x="['right','right','right','right']" data-hoffset="['0','0','0','0']"
                 data-y="['middle','middle','middle','middle']" data-voffset="['195','215']"
                 data-width="none"
                 data-height="none"
@@ -424,13 +460,13 @@
                 data-transform_idle="o:1;"
                 data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power1.easeInOut;"
                 data-style_hover="c:rgba(255, 255, 255, 1.00);bc:rgba(255, 255, 255, 1.00);"
-                data-transform_in="y:50px;opacity:0;s:1500;e:Power4.easeInOut;" 
-                data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
-                data-mask_out="x:inherit;y:inherit;" 
-                data-start="1500" 
-                data-splitin="none" 
-                data-splitout="none" 
-                data-responsive_offset="on" 
+                data-transform_in="y:50px;opacity:0;s:1500;e:Power4.easeInOut;"
+                data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                data-mask_out="x:inherit;y:inherit;"
+                data-start="1500"
+                data-splitin="none"
+                data-splitout="none"
+                data-responsive_offset="on"
                 style="z-index: 8;"><a href="#about" class="btn js-target-scroll">Look more <i class="icon-next"></i></a>
               </div>
             </li>
@@ -440,8 +476,8 @@
       </div>
     </main>
 
-    <div class="content">   
-    
+    <div class="content">
+
       <!-- About  -->
 
       <section id="about" class="about section">
@@ -453,16 +489,16 @@
           <div class="section-content">
             <div class="row-base row">
               <div class="col-base col-sm-6 col-md-4">
-                <h3 class="col-about-title">we turn ideas into works of art<span class="text-primary">.</span></h3>
+                <h3 class="col-about-title">From Concept To Reality<span class="text-primary">.</span></h3>
                 <div class="col-about-info">
-                  <p>For each project we establish relationships with partners who we know will help us create added value for your project. As well as bringing together the public and private sectors, we make sector-overarching links to gather knowledge and to learn from each other. The way we undertake projects is based on permanently applying values that reinforce each other: socio-cultural value, experiental value, building-technical value and economical value.</p>
+                  <p>Archito Design Studio is the outcome of the relentless efforts of our founder Mr Rishikesh Nayak, the most creative architect around. Driven by passion, we deliver consultancy services to a broad range of clients including real estate developers, government and private institutions, residential establishments, hotels and restaurants, etc to name a few. Project monitoring, Project supervision, Pre-design study, Conducting techno-economic feasibility, Project maintenance, etc happens to be our forte.</p>
                 </div>
               </div>
               <div class="col-base col-about-spec col-sm-6 col-md-4">
                 <h3 class="col-about-title">our<br> specialization<span class="text-primary">:</span></h3>
                 <div class="service-item">
                   <img alt="" width="46" src="img/img-icon/icon-architecture.png">
-                  <h4>Archito designed</h4>
+                  <h4>Architecture</h4>
                 </div>
                 <div class="service-item">
                   <img alt="" width="58" src="img/img-icon/icon-interiors.png">
@@ -499,7 +535,7 @@
                       Residential care<br> project in Paris
                     </h3>
                     <h4 class="project-category">
-                      Archito designed
+                      Architecture
                     </h4>
                     <div class="project-zoom"></div>
                   </figcaption>
@@ -512,10 +548,10 @@
                   <img alt="" src="img/projects/2-480x880.jpg">
                   <figcaption>
                     <h3 class="project-title">
-                      Concert hall<br> in Berhampur
+                      Concert hall<br> in New york
                     </h3>
                     <h4 class="project-category">
-                      Archito designed
+                      Architecture
                     </h4>
                     <div class="project-zoom"></div>
                   </figcaption>
@@ -528,10 +564,10 @@
                   <img alt="" src="img/projects/3-480x880.jpg">
                   <figcaption>
                     <h3 class="project-title">
-                      Modern hotel<br>in Bhubaneswar
+                      Modern hotel<br>in London
                     </h3>
                     <h4 class="project-category">
-                      Archito designed
+                      Architecture
                     </h4>
                     <div class="project-zoom"></div>
                   </figcaption>
@@ -544,10 +580,10 @@
                   <img alt="" src="img/projects/4-480x880.jpg">
                   <figcaption>
                     <h3 class="project-title">
-                      Modern hotel<br>in Bhubaneswar
+                      Modern hotel<br>in London
                     </h3>
                     <h4 class="project-category">
-                      Archito designed
+                      Architecture
                     </h4>
                     <div class="project-zoom"></div>
                   </figcaption>
@@ -563,7 +599,7 @@
                       Residential care<br> project in Paris
                     </h3>
                     <h4 class="project-category">
-                      Archito designed
+                      Architecture
                     </h4>
                     <div class="project-zoom"></div>
                   </figcaption>
@@ -579,7 +615,7 @@
                       Residential care<br> project in Paris
                     </h3>
                     <h4 class="project-category">
-                      Archito designed
+                      Architecture
                     </h4>
                     <div class="project-zoom"></div>
                   </figcaption>
@@ -592,18 +628,18 @@
 
       <!-- Experience -->
 
-      <section class="experience section">
+      <!-- <section class="experience section">
         <div class="container">
           <div class="text-parallax" data-stellar-background-ratio="0.85" style="background-image: url('img/bg/text-1.jpg');">
             <div class="text-parallax-content">12</div>
           </div>
           <h4 class="experience-info wow fadeInRight"><span class="text-primary">Highly acclaimed work</span><br> in the market</h4>
         </div>
-      </section>
+      </section> -->
 
       <!-- Clients  -->
 
-      <section class="clients section">
+      <!-- <section class="clients section">
         <div class="container">
           <header class="section-header">
             <h2 class="section-title">Our <span class="text-primary">clients</span></h2>
@@ -647,7 +683,7 @@
             <a href="#" class="btn btn-shadow-2">Work together <i class="icon-next"></i></a>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <!-- Contacts -->
 
@@ -660,10 +696,9 @@
           <div class="section-content">
             <div class="row-base row">
               <div class="col-address col-base col-md-4">
-                +91 94398 71345<br>
-                +91 93379 22103<br>
-                info@archito.in<br>
-                07, Rk Enclave, Berhampur
+                +91 9337922103<br>
+                rushikesh.archito@gmail.com<br>
+                7-A, 1st floor, Radha krishna Enclave, Aska Rd,760008, Brahmapur, Odisha
               </div>
               <div class="col-base  col-md-8">
                 <form class="js-ajax-form">
@@ -706,17 +741,18 @@
 
       <!-- Footer -->
 
-      <footer id="footer" class="footer">     
+      <footer id="footer" class="footer">
         <div class="container">
           <div class="row-base row">
             <div class="col-base text-left-md col-md-4">
-              <a href="#" class="brand">
-                <span class="text-primary">.</span>archito
+              <a href="index.html" class="brand">
+                <!-- <span class="text-primary">.</span>archito -->
+                <img src="img/LOGO-ARCHITO.png" width="250">
               </a>
             </div>
             <div class="text-center-md col-base col-md-4">
               <a href="https://teceads.com/" class="author-link">
-               designed by Teceads SolutionS (P) Ltd.
+               designed by Teceads Solutions Pvt.Ltd.
               </a>
             </div>
             <div class="text-right-md col-base col-md-4">
@@ -770,6 +806,6 @@
 <script src="js/rev-slider/revolution.extension.parallax.min.js"></script>
 <script src="js/rev-slider/revolution.extension.slideanims.min.js"></script>
 <script src="js/rev-slider/revolution.extension.video.min.js"></script>
-<script src="js/interface.js"></script> 
+<script src="js/interface.js"></script>
 </body>
 </html>
